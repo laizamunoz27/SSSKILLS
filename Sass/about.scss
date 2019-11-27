@@ -2,13 +2,12 @@
 </style > <style > @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 
 </style > #home.body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Staatliches';
     background: #315b96;
 }
-
 .container {
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: calc(40% - 100px);
     border: 1px solid #fbc1bc;
     width: 400px;
@@ -66,104 +65,33 @@
     box-shadow: inset 1px 1px 10px 1px;
     color: #404040;
 }
-
-h1 {
+h1{
     font-family: 'Staatliches';
     color: #233567;
     font-size: 50px;
-    position: absolute;
-    top: 0%;
-    left: calc(30% - 290px);
 }
-
-p.tagline {
+.WhoisthisSiteFor{
+    font-family: 'Staatliches';
+    color: #233567;
+    font-size: 20px;
+}
+h3{
     font-family: 'Staatliches';
     color: #233567;
     font-size: 30px;
-    position: absolute;
-    top: 10%;
-    left: calc(30% - 290px);
-    
 }
-p.attractor {
+p{
+    font-family: 'Staatliches';
+    color: #233567;
+    font-size: 20px;
+}
+h4{
     font-family: 'Staatliches';
     color: #233567;
     font-size: 30px;
-    position: absolute;
-    top: 15%;
-    left: calc(70% - 400px);
-   
 }
-div.intro {
-    
+h5{
     font-family: 'Staatliches';
     color: #233567;
     font-size: 30px;
-    position: absolute;
-    top:160px;
-}
-h3 {
-    font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-    position: absolute;
-    top:350px;
-}
-
-
-.retrievalpractice {
-    font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-    position: absolute;
-    top:400px;
-}
-.SpacedPractice {
-    font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-    position: absolute;
-    top:600px;
-}
-.Elaboration {
-    font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-    position: absolute;
-    top:750px;
-}
-.Interleaving {
-    font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-    position: absolute;
-    top:1000px;
-}
-.ConcreteExample{
-   font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-    position: absolute;
-    top:1200px; 
-}
-.DualCoding{
-      font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-    position: absolute;
-    top:1400px; 
-}
-.credits {
-    font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-    position: absolute;
-    top:1600px;
-}
-.featured{
-    font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-    position: absolute;
-    top:1800px;
 }
