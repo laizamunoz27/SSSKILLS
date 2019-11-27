@@ -1,7 +1,12 @@
-<style > @import url('https://fonts.googleapis.com/css?family=Raleway:500&display=swap');
-</style > <style > @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 
-</style > #home.body {
+
+
+/**/
+
+ body#home {
+    font-family: 'Raleway', sans-serif;
+    background: #315b96;
+     color: #fff;
     font-family: 'Raleway', sans-serif;
     background: #315b96;
 }
@@ -17,22 +22,22 @@
 }
 
 .nav {
-    position: relative;
-    top: -50%;
+/*    position: relative;*/
+/*    top: -50%;*/
     height: 32px;
-    width: 500px; //
+/*    width: 500px;*/
     background: #ffdfdf;
 }
 
 .nav ul {
     list-style: none;
     position: relative;
-    top: 30%; //
+    top: 30%;
     background: #ffdfdf;
 }
 
 .nav ul li {
-    display: inline; //
+    display: inline;
     background: #ffdfdf;
     margin-right: 30px;
 
@@ -53,7 +58,7 @@
 }
 
 .nav ul li:hover {
-    background: #ffdfdf; //
+    background: #ffdfdf;
     box-shadow: 0px 2px 3px 0px #404040;
     cursor: pointer;
 }
@@ -69,29 +74,29 @@
 
 h1 {
     font-family: 'Staatliches';
-    color: #233567;
+/*    color: #233567;*/
     font-size: 50px;
-    position: absolute;
-    top: 0%;
-    left: calc(30% - 290px);
+/*    position: absolute;*/
+/*    top: 0%;*/
+/*    left: calc(30% - 290px);*/
 }
 
 p.tagline {
     font-family: 'Staatliches';
-    color: #233567;
+/*    color: #233567;*/
     font-size: 30px;
-    position: absolute;
-    top: 10%;
-    left: calc(30% - 290px);
+/*    position: absolute;*/
+/*    top: 10%;*/
+/*    left: calc(30% - 290px);*/
 
 }
 p.attractor {
     font-family: 'Staatliches';
-    color: #233567;
+/*    color: #233567;*/
     font-size: 30px;
-    position: absolute;
-    top: 15%;
-    left: calc(70% - 400px);
+/*    position: absolute;*/
+/*    top: 15%;*/
+/*    left: calc(70% - 400px);*/
 
 }
 div.intro {
@@ -99,15 +104,15 @@ div.intro {
     font-family: 'Staatliches';
     color: #233567;
     font-size: 30px;
-    position: absolute;
-    top:160px;
+/*    position: absolute;*/
+/*    top:160px;*/
 }
 h3 {
     font-family: 'Staatliches';
     color: #233567;
     font-size: 30px;
-    position: absolute;
-    top:350px;
+/*    position: absolute;*/
+/*    top:350px;*/
 }
 
 
@@ -115,55 +120,55 @@ h3 {
     font-family: 'Staatliches';
     color: #233567;
     font-size: 30px;
-    position: absolute;
-    top:400px;
+/*    position: absolute;*/
+/*    top:400px;*/
 }
 .SpacedPractice {
     font-family: 'Staatliches';
     color: #233567;
     font-size: 30px;
-    position: absolute;
-    top:600px;
+/*    position: absolute;*/
+/*    top:600px;*/
 }
 .Elaboration {
     font-family: 'Staatliches';
     color: #233567;
     font-size: 30px;
-    position: absolute;
-    top:750px;
+/*    position: absolute;*/
+/*    top:750px;*/
 }
 .Interleaving {
     font-family: 'Staatliches';
     color: #233567;
     font-size: 30px;
-    position: absolute;
-    top:1000px;
+/*    position: absolute;*/
+/*    top:1000px;*/
 }
 .ConcreteExample{
    font-family: 'Staatliches';
     color: #233567;
     font-size: 30px;
-    position: absolute;
-    top:1200px;
+/*    position: absolute;*/
+/*    top:1200px;*/
 }
 .DualCoding{
       font-family: 'Staatliches';
     color: #233567;
     font-size: 30px;
-    position: absolute;
-    top:1400px;
+/*    position: absolute;*/
+/*    top:1400px;*/
 }
 .credits {
     font-family: 'Staatliches';
     color: #233567;
     font-size: 30px;
-    position: absolute;
-    top:1600px;
+/*    position: absolute;*/
+/*    top:1600px;*/
 }
 .featured{
     font-family: 'Staatliches';
     color: #233567;
     font-size: 30px;
-    position: absolute;
-    top:1800px;
+/*    position: absolute;*/
+/*    top:1800px;*/
 }
