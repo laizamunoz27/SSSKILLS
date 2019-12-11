@@ -1,174 +1,302 @@
-
-
-
-/**/
+@import url('https://fonts.googleapis.com/css?family=Raleway:500&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 
  body#home {
-    font-family: 'Raleway', sans-serif;
-    background: #315b96;
-     color: #fff;
-    font-family: 'Raleway', sans-serif;
-    background: #315b96;
-}
+     font-family: 'Raleway', sans-serif;
+     background: #e5dfdf;
+ }
 
-.container {
-    position: absolute;
-    top: 10%;
-    left: calc(40% - 100px);
-    border: 1px solid #fbc1bc;
-    width: 400px;
-    height: 32px;
-    box-shadow: 1px 1px 5px #ffdfdf;
-}
+ .container {
+     position: relative;
+     top: 8%;
+     left: calc(43% - 100px);
+     border: 1px solid #1d4d4f;
+     width: 500px;
+     height: 40px;
+     box-shadow: 1px 1px 5px #FFFFFF;
+ }
 
-.nav {
-/*    position: relative;*/
-/*    top: -50%;*/
-    height: 32px;
-/*    width: 500px;*/
-    background: #ffdfdf;
-}
+ .nav {
 
-.nav ul {
-    list-style: none;
-    position: relative;
-    top: 30%;
-    background: #ffdfdf;
-}
+     height: 60px;
 
-.nav ul li {
-    display: inline;
-    background: #ffdfdf;
-    margin-right: 30px;
+ }
 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
+ .nav ul {
+     list-style: none;
+     position: absolute;
+     top: -10%;
+ }
 
-}
+ .nav ul li {
+     display: inline;
 
-.nav ul li a {
-    text-decoration: none;
-    color: #233567;
-}
+     margin-right: 20px;
 
-.nav ul li:hover a {
-    color: #909090;
-}
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-right: 10px;
+     padding-left: 30px;
 
-.nav ul li:hover {
-    background: #ffdfdf;
-    box-shadow: 0px 2px 3px 0px #404040;
-    cursor: pointer;
-}
+ }
 
-.nav ul li:active a {
-    color: #315b96;
-}
+ .nav ul li a {
+     text-decoration: inherit;
+     color: #1d4d4f;
+ }
 
-.nav ul li:active {
-    box-shadow: inset 1px 1px 10px 1px;
-    color: #404040;
-}
+ .nav ul li:hover a {
+     color: #FFFFFF;
+ }
 
-h1 {
-    font-family: 'Staatliches';
-/*    color: #233567;*/
-    font-size: 50px;
-/*    position: absolute;*/
-/*    top: 0%;*/
-/*    left: calc(30% - 290px);*/
-}
+ .nav ul li:hover {
+     background: #C3C3C3;
+     box-shadow: 4px 4px 4px 4px #FFFFFF;
+     cursor: pointer;
+ }
 
-p.tagline {
-    font-family: 'Staatliches';
-/*    color: #233567;*/
-    font-size: 30px;
-/*    position: absolute;*/
-/*    top: 10%;*/
-/*    left: calc(30% - 290px);*/
+ .nav ul li: active a {
+     color: #1d4d4f;
+ }
 
-}
-p.attractor {
-    font-family: 'Staatliches';
-/*    color: #233567;*/
-    font-size: 30px;
-/*    position: absolute;*/
-/*    top: 15%;*/
-/*    left: calc(70% - 400px);*/
+ .nav ul li:active {
+     box-shadow: inset 1px 1px 10px 1px;
+     color: #404040;
+ }
 
-}
-div.intro {
+ h1 {
 
-    font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-/*    position: absolute;*/
-/*    top:160px;*/
-}
-h3 {
-    font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-/*    position: absolute;*/
-/*    top:350px;*/
-}
+     font-family: 'Staatliches';
+     color: #1d4d4f;
+     font-size: 70px;
+
+ }
+
+ p.tagline {
+     font-family: 'Staatliches';
+     color: #1d4d4f;
+     font-size: 40px;
+     text-align: center;
+     position: relative;
+     top: 50px;
+
+ }
+
+ p.attractor {
+     font-family: 'Staatliches';
+     color: #000000;
+     font-size: 30px;
+     text-align: center;
+     position: relative;
+     top: 60px;
+ }
+
+ h2 {
+     font-family: 'Staatliches';
+     color: #1d4d4f;
+     font-size: 40px;
+     text-align: center;
+     position: relative;
+     top: 50px;
+ }
+
+ div.intro p {
+     font-family: 'Staatliches';
+     color: #000000;
+     font-size: 30px;
+     text-align: center;
+     position: relative;
+     top: 20px;
+     margin: auto;
+     width: 50%;
+     border: 3px solid white;
+     padding: 40px
+ }
+
+ h3 {
+     font-family: 'Staatliches';
+     color: #1d4d4f;
+     font-size: 40px;
+     text-align: center;
+     position: relative;
+     top: 10px;
+ }
+
+ h4 {
+     font-family: 'Staatliches';
+     color: #1d4d4f;
+     font-size: 40px;
+     text-align: center;
+     position: relative;
+     top: -60px;
+ }
+
+ .retrievalpractice p {
+     font-family: 'Staatliches';
+     color: #000000;
+     font-size: 30px;
+     text-align: center;
+     position: relative;
+     top: -40px;
+     margin: auto;
+     width: 50%;
+     border: 3px solid white;
+     padding: 40px
+ }
+
+ h5 {
+     font-family: 'Staatliches';
+     color: #1d4d4f;
+     font-size: 40px;
+     text-align: center;
+     position: relative;
+     top: -50px;
+ }
+
+ .SpacedPractice p {
+     font-family: 'Staatliches';
+     color: #000000;
+     font-size: 30px;
+     text-align: center;
+     position: relative;
+     top: -90px;
+     margin: auto;
+     width: 50%;
+     border: 3px solid white;
+     padding: 40px
+ }
+
+ h6 {
+     font-family: 'Staatliches';
+     color: #1d4d4f;
+     font-size: 40px;
+     text-align: center;
+     position: relative;
+     top: -20px;
+ }
+
+ .Elaboration p {
+     font-family: 'Staatliches';
+     color: #000000;
+     font-size: 30px;
+     text-align: center;
+     position: relative;
+     top: -100px;
+     margin: auto;
+     width: 50%;
+     border: 3px solid white;
+     padding: 40px;
+ }
+
+ h7 {
+     font-family: 'Staatliches';
+     color: #1d4d4f;
+     font-size: 40px;
+     text-align: center;
+     position: relative;
+     top: -130px;
 
 
-.retrievalpractice {
-    font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-/*    position: absolute;*/
-/*    top:400px;*/
-}
-.SpacedPractice {
-    font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-/*    position: absolute;*/
-/*    top:600px;*/
-}
-.Elaboration {
-    font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-/*    position: absolute;*/
-/*    top:750px;*/
-}
-.Interleaving {
-    font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-/*    position: absolute;*/
-/*    top:1000px;*/
-}
-.ConcreteExample{
-   font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-/*    position: absolute;*/
-/*    top:1200px;*/
-}
-.DualCoding{
-      font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-/*    position: absolute;*/
-/*    top:1400px;*/
-}
-.credits {
-    font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-/*    position: absolute;*/
-/*    top:1600px;*/
-}
-.featured{
-    font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
-/*    position: absolute;*/
-/*    top:1800px;*/
-}
+ }
+
+ .Interleaving p {
+     font-family: 'Staatliches';
+     color: #000000;
+     font-size: 30px;
+     text-align: center;
+     position: relative;
+     top: -80px;
+     margin: auto;
+     width: 50%;
+     border: 3px solid white;
+     padding: 40px
+ }
+
+ h8 {
+     font-family: 'Staatliches';
+     color: #1d4d4f;
+     font-size: 40px;
+     text-align: center;
+     position: relative;
+     top: -130px;
+ }
+
+ .ConcreteExample p {
+     font-family: 'Staatliches';
+     color: #000000;
+     font-size: 30px;
+     text-align: center;
+     position: relative;
+     top: -90px;
+     margin: auto;
+     width: 50%;
+     border: 3px solid white;
+     padding: 40px
+ }
+
+ h9 {
+     font-family: 'Staatliches';
+     font-family: 'Staatliches';
+     color: #1d4d4f;
+     font-size: 40px;
+     text-align: center;
+     position: relative;
+     top: -130px;
+ }
+
+ .DualCoding p {
+     font-family: 'Staatliches';
+     color: #000000;
+     font-size: 30px;
+     text-align: center;
+     position: relative;
+     top: -90px;
+     margin: auto;
+     width: 50%;
+     border: 3px solid white;
+     padding: 40px
+ }
+
+ h10 {
+     font-family: 'Staatliches';
+     color: #1d4d4f;
+     font-size: 40px;
+     text-align: center;
+     position: relative;
+     top: -130px;
+ }
+
+ .credits p {
+     font-family: 'Staatliches';
+     color: #000000;
+     font-size: 30px;
+     text-align: center;
+     position: relative;
+     top: -90px;
+     margin: auto;
+     width: 50%;
+     border: 3px solid white;
+     padding: 40px
+ }
+
+ h11 {
+     font-family: 'Staatliches';
+     color: #1d4d4f;
+     font-size: 40px;
+     text-align: center;
+     position: relative;
+     top: -130px;
+ }
+
+ .featured p {
+     font-family: 'Staatliches';
+     color: #000000;
+     font-size: 30px;
+     text-align: center;
+     position: relative;
+     top: -90px;
+     margin: auto;
+     width: 50%;
+     border: 3px solid white;
+     padding: 40px
+ }

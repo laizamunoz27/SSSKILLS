@@ -1,118 +1,278 @@
-<style > @import url('https://fonts.googleapis.com/css?family=Raleway:500&display=swap');
-</style > <style > @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 
-</style > #home.body {
-    font-family: 'Staatliches';
-    background: #315b96;
+body#home {
+    font-family: 'Raleway', sans-serif;
+    background: #e5dfdf;
 }
+
 .container {
-    position: absolute;
-    top: 5%;
-    left: calc(40% - 100px);
-    border: 1px solid #fbc1bc;
-    width: 400px;
-    height: 32px;
-    box-shadow: 1px 1px 5px #ffdfdf;
+    position: relative;
+    top: 8%;
+    left: calc(43% - 100px);
+    border: 1px solid #1d4d4f;
+    width: 500px;
+    height: 40px;
+    box-shadow: 1px 1px 5px #FFFFFF;
 }
 
 .nav {
-    position: relative;
-    top: -50%;
-    height: 32px;
-    width: 500px; //
-    background: #ffdfdf;
+
+    height: 60px;
+
 }
 
 .nav ul {
     list-style: none;
-    position: relative;
-    top: 30%; //
-    background: #ffdfdf;
+    position: absolute;
+    top: -10%;
 }
 
 .nav ul li {
-    display: inline; //
-    background: #ffdfdf;
-    margin-right: 30px;
+    display: inline;
+
+    margin-right: 20px;
 
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 30px;
 
 }
 
 .nav ul li a {
-    text-decoration: none;
-    color: #233567;
+    text-decoration: inherit;
+    color: #1d4d4f;
 }
 
 .nav ul li:hover a {
-    color: #909090;
+    color: #FFFFFF;
 }
 
 .nav ul li:hover {
-    background: #ffdfdf; //
-    box-shadow: 0px 2px 3px 0px #404040;
+    background: #C3C3C3;
+    box-shadow: 4px 4px 4px 4px #FFFFFF;
     cursor: pointer;
 }
 
-.nav ul li:active a {
-    color: #315b96;
+.nav ul li: active a {
+    color: #1d4d4f;
 }
 
 .nav ul li:active {
     box-shadow: inset 1px 1px 10px 1px;
     color: #404040;
 }
-h1{
+
+h1 {
     font-family: 'Staatliches';
-    color: #233567;
-    font-size: 50px;
-}
-.Attractor{
-     font-family: 'Staatliches';
-    color: #233567;
-    font-size: 30px;
+    color: #1d4d4f;
+    font-size: 70px;
 }
 
-.whatisit{
+h2 {
     font-family: 'Staatliches';
-    color: #233567;
-    font-size: 20px;
+    color: #1d4d4f;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 20px;
 }
-.WhyisitEffective{
-     font-family: 'Staatliches';
-    color: #233567;
-    font-size: 20px;
+
+.Attractor p {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 40px;
 }
-.HowtoUseRetrievalPractice{
+
+h3 {
     font-family: 'Staatliches';
-    color: #233567;
-    font-size: 20px;
+    color: #1d4d4f;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 20px;
 }
-.WhentoUseRetrievalPractice{
+
+.whatisit p {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 40px;
+}
+
+h4 {
     font-family: 'Staatliches';
-    color: #233567;
-    font-size: 20px;
+    color: #1d4d4f;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 20px;
 }
-.TipsandTricks{
+
+.WhyisitEffective {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 40px;
+}
+
+h5 {
     font-family: 'Staatliches';
-    color: #233567;
-    font-size: 20px;
+    color: #1d4d4f;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 20px;
 }
-.downloads{
+
+.HowtoUseRetrievalPractice {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 40px;
+}
+
+h6 {
     font-family: 'Staatliches';
-    color: #233567;
-    font-size: 20px;
+    color: #1d4d4f;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 20px;
 }
-.videos{
-     font-family: 'Staatliches';
-    color: #233567;
-    font-size: 20px;
+
+.WhentoUseRetrievalPractice {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 40px;
 }
-.Podcastsandwebsites{
+
+h7 {
     font-family: 'Staatliches';
-    color: #233567;
-    font-size: 20px;
+    color: #1d4d4f;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.TipsandTricks {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 40px;
+}
+
+h8 {
+    font-family: 'Staatliches';
+    color: #1d4d4f;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+h9 {
+    font-family: 'Staatliches';
+    color: #1d4d4f;
+    font-size: 40px;
+    text-align: left;
+    position: relative;
+    top: 70px;
+}
+
+.downloads li {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    text-align: left;
+    position: relative;
+    top: 90px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 40px
+}
+
+h10 {
+    font-family: 'Staatliches';
+    color: #1d4d4f;
+    font-size: 40px;
+    text-align: left;
+    position: relative;
+    top: 20px;
+}
+
+.videos {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    text-align: left;
+    position: relative;
+    top: 90px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 40px
+}
+
+h11 {
+    font-family: 'Staatliches';
+    color: #1d4d4f;
+    font-size: 40px;
+    text-align: left;
+    position: relative;
+    top: 20px;
+}
+
+.Podcastsandwebsites {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    text-align: left;
+    position: relative;
+    top: 90px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 40px
 }
