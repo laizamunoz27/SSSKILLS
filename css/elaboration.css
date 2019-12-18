@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+body#Elaboration {
+	font-family: 'Raleway', sans-serif;
+	background: #e5dfdf;
+}
+
+.container {
+	position: relative;
+	top: 8%;
+	left: calc(20% - 15px);
+	border: 1px solid #1d4d4f;
+	width: 1300px;
+	height: 40px;
+	box-shadow: 1px 1px 5px #FFFFFF;
+}
+
+.nav {
+
+	height: 60px;
+
+}
+
+.nav ul {
+	list-style: none;
+	position: absolute;
+	top: -10%;
+}
+
+.nav ul li {
+	display: inline;
+
+	margin-right: 10px;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 30px;
+
+}
+
+.nav ul li a {
+	text-decoration: inherit;
+	color: #1d4d4f;
+}
+
+.nav ul li:hover a {
+	color: #FFFFFF;
+}
+
+.nav ul li:hover {
+	background: #C3C3C3;
+	box-shadow: 4px 4px 4px 4px #FFFFFF;
+	cursor: pointer;
+}
+
+.nav ul li: active a {
+	color: #1d4d4f;
+}
+
+.nav ul li:active {
+	box-shadow: inset 1px 1px 10px 1px;
+	color: #404040;
+}
+
+h1 {
+
+	font-family: 'Staatliches';
+	color: #1d4d4f;
+	font-size: 70px;
+
+}
+
+h2 {
+	font-family: 'Staatliches';
+	color: #1d4d4f;
+	font-size: 40px;
+	text-align: center;
+	position: relative;
+	top: 20px;
+
+}
+.Whatisit p {
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	margin: auto;
+	width: 50%;
+	border: 3px solid white;
+	padding: 10px;
+
+}
+
+.WhyisitEffective ul {
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	margin: auto;
+	width: 50%;
+	border: 3px solid white;
+	padding: 40px;
+}
+.HowtoUse ul {
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	margin: auto;
+	width: 50%;
+	border: 3px solid white;
+	padding: 40px;
+}
+.WhentoUse ul {
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	margin: auto;
+	width: 50%;
+	border: 3px solid white;
+	padding: 40px;
+}
+.TipsTricks ul {
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	margin: auto;
+	width: 50%;
+	border: 3px solid white;
+	padding: 40px;
+}
+.Downloads ul {
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top:10px;
+	margin: auto;
+	width: 50%;
+	border: 3px solid white;
+	padding: 40px;
+}
+
+.videos {
+	float: center;
+	width: 3.90625%;
+	height: 100%;
+	margin-left: 35%;
+	display: block;
+}
+.Podcastsandwebsites ul {
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	margin: auto;
+	width: 50%;
+	border: 3px solid white;
+	padding: 40px;
+}
+h3 {
+	  font-family: 'Staatliches';
+    color: #1d4d4f;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    top: 20px;
+}
+.sitefooter ul{
+	font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    top: 10px;
+
+}
